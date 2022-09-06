@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{
+            background-color: red;
+        }
+        #one {
+            background-color: white;
+            padding: 60px;
+            border-style: groove;
+           border-radius: 200px;
+            border-color: black;
+        }
+
+        #two {
+            background-color: white;
+            padding: 60px;
+            border-style: groove;
+            border-radius: 200px;
+            border-color: black;
+        }
+        #three{
+            text-align: center;
+            background-color: white;
+            padding: 60px;
+            margin-left: 350px;
+            border-style: groove;
+            width: 600px;
+            border: 80px solid rosybrown;
+border-color: black;
+        }
+        img{
+            border-radius: 50%;
+            border-color: darkkhaki;
+            border: 15px solid plum;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function AlertMessage() {
+        alert("BHUPESH SAHU");
+    }
+    function Sakyo() {
+        alert("202000365")
+    }
+</script>
+
+<body>
+    <div id="one" align="center">
+        <p>Click on the message to see my name</p>
+        <button onclick="AlertMessage()">Press Here</button>
+        <p>Click for reg_no</p>
+        <button onclick="Sakyo()">Press here</button><br><br><br>
+    </div>
+    <div id="two" align="center">
+        <img onmouseover="largePic(this)" onmouseout="normPic(this)"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMsfDFfJgVjLeIzEaelwWq19NSpS67fpWtzQ&usqp=CAU" width="320px" height="180px">
+            <h1>SUNIL CHHETRI</h1>
+        <script>
+            function largePic(x) {
+                x.style.width = "700px";
+                x.style.height = "400px";
+            }
+            function normPic(x) {
+                x.style.width = "350px";
+                x.style.height = "200px";
+            }
+            
+        </script>
+    </div>
+    <div id="three" align="center">
+        <footer>
+            <h3>&#169;bhupesh_202000365@smit.smu.edu.in</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
